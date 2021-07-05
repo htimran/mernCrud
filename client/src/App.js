@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { Form, Button, Layout, Menu, Breadcrumb, Popover, Table, Upload, message } from 'antd';
 import { UserOutlined, UploadOutlined, FormOutlined } from '@ant-design/icons';
 import { getPlatforms, updatePlatform } from './routes/routes';
-import './App.css';
-import 'antd/dist/antd.css';
-import './common/css/commonStyles.css';
 import PlatformModal from './views/platforms/platformModal';
+import './common/css/commonStyles.css';
+import 'antd/dist/antd.css';
+import './App.css';
 
 
 const App = () => {
