@@ -1,0 +1,17 @@
+{
+  "name": "reactnodelayout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "Hafiz Imran Ali",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9"
+  }
+}
