@@ -7,7 +7,6 @@ import './common/css/commonStyles.css';
 import 'antd/dist/antd.css';
 import './App.css';
 
-
 const App = () => {
 
   const [platformData, setPlatformData] = useState([]);
